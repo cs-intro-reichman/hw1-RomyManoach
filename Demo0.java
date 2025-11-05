@@ -1,9 +1,15 @@
 // Prints the numbers 0 to 5.
 // (Same program as shown in lecture 1-1).
-public class PrintTo5 {
+class PrintTo5 {
 	public static void main(String[] args) {
-		// Declares an int variable, and sets it to 1
+		// הצהרת משתנים
         int i = 0;
-        // Complete the program's code here:
+        // ספירה עד 5 כולל והדפסה
+        while (i < 6) {
+            System.out.println(i);
+            i = i + 1;
+            
+        }
+        System.out.println("Done");
     }
  }
